@@ -24,12 +24,12 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 
-@Mod(modid = DeployerFix.MODID, name = DeployerFix.MODNAME, version = DeployerFix.VERSION, dependencies = "required-after:" + "terrafirmacraft" + ";" + "required-after:" + "bluepower" + ";" + "required-after:" + "ImmersiveEngineering")
+@Mod(modid = DeployerFix.MODID, name = DeployerFix.MODNAME, version = DeployerFix.VERSION, dependencies = "required-after:" + "terrafirmacraft" + ";" + "required-after:" + "bluepower" + ";")
 public class DeployerFix
 {	
     public static final String MODID = "DeployerFix";
     public static final String MODNAME = "DeployerFix";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     
     @EventHandler
     public void init(FMLInitializationEvent event)

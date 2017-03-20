@@ -4,7 +4,7 @@
         "modid": "DeployerFix",
         "name": "DeployerFix",
         "description": "This mod allows the BluePower deployer to deploy TFC and regular seeds onto TFC farmland",
-        "version": "1.0}",
+        "version": "1.1",
         "mcversion": "1.7.10",
         "url": "",
         "updateUrl": "",
